@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>Travel Booking</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://img.icons8.com/ios-filled/100/000000/airport.png" alt="Travel Icon" id="logo">
+      <hr>
+      <form action="booking-confirmation.html" method="POST">
+        <h1>Book Your Travel</h1>
+
+        <section class="fullname">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" required>
+        </section>
+        <hr>
+
+        <section class="email">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" required>
+        </section>
+        <hr>
+
+        <section class="destination">
+          <label for="destination">Destination</label>
+          <input type="text" name="destination" id="destination" required>
+        </section>
+        <hr>
+
+        <section class="dates">
+          <label for="departure">Departure Date</label>
+          <input type="date" name="departure" id="departure" required><br><br>
+
+          <label for="return">Return Date</label>
+          <input type="date" name="return" id="return">
+        </section>
+        <hr>
+
+        <section class="travelers">
+          <label for="num-travelers">Number of Travelers</label>
+          <input type="number" name="num-travelers" id="num-travelers" min="1" required>
+        </section>
+        <hr>
+
+        <section class="class">
+          <span>Travel Class</span><br>
+          <input type="radio" name="class" id="economy" value="Economy" required>
+          <label for="economy">Economy</label>
+          <input type="radio" name="class" id="business" value="Business">
+          <label for="business">Business</label>
+          <input type="radio" name="class" id="first" value="First Class">
+          <label for="first">First Class</label>
+        </section>
+        <hr>
+
+        <section class="extras">
+          <span>Select Extras</span><br>
+          <input type="checkbox" name="extra" id="meals" value="Meals">
+          <label for="meals">In-flight Meals</label>
+          <input type="checkbox" name="extra" id="wifi" value="WiFi">
+          <label for="wifi">WiFi Access</label>
+          <input type="checkbox" name="extra" id="window" value="Window Seat">
+          <label for="window">Window Seat</label>
+        </section>
+        <hr>
+
+        <section class="notes">
+          <label for="notes">Additional Requests or Notes</label><br>
+          <textarea name="notes" id="notes" rows="4" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submit">
+          <input type="submit" value="Book Now">
+        </section>
+      </form>
+    </section>
+  </body>
+</html>
