@@ -1,27 +1,11 @@
 # ✈️ Travel Booking Form
 
-This is a simple **travel booking form** built using HTML and CSS. It lets users enter details like destination, dates, number of travelers, travel class, and additional requests.
+This is a simple HTML project that contains a travel booking form. It allows users to input their travel details like destination, dates, number of travelers, and class.
 
-## 🚀 Features
+## 🚀 How to Use
 
-- Choose destination and travel dates
-- Select number of travelers and travel class
-- Add optional extras like meals, Wi-Fi, or window seat
-- Responsive and clean design
+1. Download or clone the repository.
+2. Open `travelform.html` in your browser.
+3. Fill out the form and hit submit!
 
-## 🛠️ Built With
-
-- HTML5
-- CSS3
-- Google Fonts
-
-## 📂 How to Use
-
-1. Download or clone the repository
-2. Open `index.html` in your browser
-3. Fill out the form like you're booking a trip!
-
-## 🔗 Live Demo
-
-(You can add this after deploying to GitHub Pages)
-
+> No styling or backend is connected yet.
